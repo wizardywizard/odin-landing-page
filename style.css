@@ -33,3 +33,21 @@ ul {
 h3 {
     text-align: center;
 }
+
+.quote-section {
+    display: flex;
+    flex-direction: column;
+    padding: 128px 192px 92px;
+}
+
+.store-page {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+footer {
+    text-align: center;
+    padding: 50px;
+    background-color: rgb(94, 238, 113);
+}
