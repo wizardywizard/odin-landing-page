@@ -1,4 +1,6 @@
-
+body {
+    font-family: 'Lora', serif;
+}
 
 .navbar {
     display: flex;
@@ -24,10 +26,20 @@ ul {
     justify-content: space-around;
 }
 
+.main-img {
+    height: 250px;
+    width: 350px;
+}
+
 .keycaps {
     display: flex;
     justify-content: center;
     gap: 52px;
+}
+
+img {
+    height: 250px;
+    width: 250px;
 }
 
 h3 {
