@@ -14,6 +14,18 @@ body {
     background-color: aqua;
 }
 
+.logo {
+    margin-left: 20px;
+}
+
+.textbox h2 {
+    font-size: 3rem;
+}
+
+.textbox p {
+    font-size: 1.3rem;
+}
+
 ul {
     display: flex;
     list-style: none;
@@ -28,13 +40,33 @@ ul {
 
 .main-img {
     height: 250px;
-    width: 350px;
+    width: 250px;
+    margin: 10px;
 }
 
 .keycaps {
     display: flex;
     justify-content: center;
     gap: 52px;
+}
+
+.keycaps img {
+    border: 5px rgb(245, 241, 7) solid;
+    border-radius: 25%;
+}
+
+.caps {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.caps h2 {
+font-size: 25px;
+}
+
+.caps p {
+    font-size: 1.3rem;
 }
 
 img {
@@ -44,6 +76,7 @@ img {
 
 h3 {
     text-align: center;
+    font-size: 30px;
 }
 
 .quote-section {
