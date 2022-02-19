@@ -1,5 +1,9 @@
 body {
     font-family: 'Lora', serif;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
 }
 
 .navbar {
@@ -85,14 +89,43 @@ h3 {
     padding: 128px 192px 92px;
 }
 
+.quote {
+    padding: 0 200px;
+}
+
+.quote p {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: oblique;
+}
+
+b {
+    text-align: right;
+    padding-bottom: 20px;
+    padding-right: 10px;
+    font-size: 27px;
+}
+
 .store-page {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    margin: 50px 300px;
+    padding: 10px 80px;
+    background-color: blueviolet;
+    border-radius: 10px;
 }
 
-footer {
+.store-page button {
+    padding: 5px 25px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: 5px solid gold;
+    background-color: aqua;
+}
+
+footer {    
     text-align: center;
-    padding: 50px;
     background-color: rgb(94, 238, 113);
+    padding: 3px;
 }
